@@ -90,65 +90,53 @@ textarea {
 .ba-checkers-row {
   position: absolute;
   top: 0;
-  right: 0;
-  bottom: 0;
   left: 0;
+  height: 25%;
+  width: 100%;
 }
 
 .ba-checkers-row:nth-child(1n) {
   top: 0%;
-  bottom: 75%;
 }
 .ba-checkers-row:nth-child(2n) {
   top: 25%;
-  bottom: 50%;
 }
 .ba-checkers-row:nth-child(3n) {
   top: 50%;
-  bottom: 25%;
 }
 .ba-checkers-row:nth-child(4n) {
   top: 75%;
-  bottom: 0%;
 }
 .ba-checkers-item {
   position: absolute;
   top: 0;
-  right: 0;
-  bottom: 0;
   left: 0;
+  height: 100%;
+  width: 12.5%;
   z-index: 2;
 }
 .ba-checkers-item:nth-child(1n) {
-  right: 87.5%;
   left: 0;
 }
 .ba-checkers-item:nth-child(2n) {
-  right: 75%;
   left: 12.5%;
 }
 .ba-checkers-item:nth-child(3n) {
-  right: 62.5%;
   left: 25%;
 }
 .ba-checkers-item:nth-child(4n) {
-  right: 50%;
   left: 37.5%;
 }
 .ba-checkers-item:nth-child(5n) {
-  right: 37.5%;
   left: 50%;
 }
 .ba-checkers-item:nth-child(6n) {
-  right: 25%;
   left: 62.5%;
 }
 .ba-checkers-item:nth-child(7n) {
-  right: 12.5%;
   left: 75%;
 }
 .ba-checkers-item:nth-child(8n) {
-  right: 0%;
   left: 87.5%;
 }
 
